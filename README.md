@@ -43,8 +43,8 @@ lang=EN-US>espressif</span>, решили ограничить отправку 
 память <span lang=EN-US>ESP</span>-32) используется утилита <span lang=EN-US>esptool</span>
 с параметрами:</p>
 
-<p class=MsoNormal><span lang=EN-US>esptool.py --chip esp32 elf2image
-my_esp32_app.elf</span></p>
+<p class=MsoNormal><span lang=EN-US><b>esptool.py --chip esp32 elf2image
+my_esp32_app.elf</b></span></p>
 
 <p class=MsoNormal>Результаты:</p>
 
