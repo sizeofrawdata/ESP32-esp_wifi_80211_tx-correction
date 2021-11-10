@@ -65,12 +65,12 @@ color:#202124;background:white'>библиотеки</span> <b>libnet80211.a, </
 исправление, позволит собирать последующие проекты без ограничений на тип
 отправляемого пакета (кадра). </p>
 
-<p class=MsoNormal>В моём случае, необходимо было проверить <b>возможность</b>
-отправки <span lang=EN-US>deauth</span><span lang=EN-US> </span>пакетов в обход
+<p class=MsoNormal>В моём случае, необходимо было <b>проверить</b> возможность
+отправки <span lang=EN-US>deauth</span><span lang=EN-US> </span>пакетов в "обход"
 ограничения.</p>
 
-<p class=MsoNormal>Исправление проверено на версии ESP-IDF 4.3, модуля <span
-lang=EN-US>ESP</span>-32, но я думаю, что этот вариант применим и к предыдущим
+<p class=MsoNormal>Исправление проверено на версии <b>ESP-IDF 4.3</b>, модуля <span
+lang=EN-US><b>ESP</span>-32</b>, но я думаю, что этот вариант применим и к предыдущим
 версиям (имеется ввиду обход <b>ieee80211_raw_frame_sanity_check</b>).</p>
 
 <p class=MsoNormal>Использованные инструменты:</p>
