@@ -22,8 +22,7 @@ lang=EN-US>espressif</span>, решили ограничить отправку 
 готовый образ или исполняемый файл <span lang=EN-US>elf</span><span lang=EN-US>
 </span>вашего проекта.</p>
 
-<p class=MsoNormal>Необходимо найти и исправить последовательность опкодов (*<i>на
-ваше усмотрение</i>):</p>
+<p class=MsoNormal>Необходимо найти и исправить (*<i>на ваше усмотрение</i>) последовательность опкодов:</p>
 
   <img align="center" src="https://github.com/sizeofrawdata/ESP32-esp_wifi_80211_tx-correction/blob/main/1.png"  alt="1">
   
