@@ -87,8 +87,6 @@ lang=EN-US><b>ESP</span>-32</b>, но я думаю, что этот вариа�
 <p><a href="https://github.com/yath/ghidra-xtensa" target="_blank">ghidra-xtensa</a></p>  
 <p class=MsoNormal>&nbsp;</p>
 
-  
-<p class=MsoNormal>прим. *<i>на ваше усмотрение</i> – имеются ввиду варианты логики</p>  
 </div>
 
 </body>
