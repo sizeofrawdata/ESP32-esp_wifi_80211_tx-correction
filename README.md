@@ -18,21 +18,26 @@ lang=EN-US>espressif</span>, решили ограничить отправку 
 осуществляет проверку типа пакета (перед его отправкой), в состав функции <b>esp_wifi_80211_tx, </b> 
 я решил исправить это ограничение.</p><p>В данном примере рассматривается <b>ESP-IDF 4.3.</b></p>
 
+<p><br></p>
+<img align="center" src="https://github.com/sizeofrawdata/ESP32-esp_wifi_80211_tx-correction/blob/main/4.png"  alt="1">  
+<p><br></p>
+  
 <p class=MsoNormal>Для того чтобы обойти это ограничение, необходимо исправить
 готовый образ или исполняемый файл <span lang=EN-US>elf</span><span lang=EN-US>
 </span>вашего проекта.</p>
 
-<p class=MsoNormalПоследовательность опкодов (для замены):</p>
-
+<p></p>  
+<p><b>После компиляции:</b></p>
+<p></p>  
   <img align="center" src="https://github.com/sizeofrawdata/ESP32-esp_wifi_80211_tx-correction/blob/main/1.png"  alt="1">
   
-<p class=MsoNormal>так:</p>
+<p class=MsoNormal><b>После исправления:</b></p>
   
   <img align="center" src="https://github.com/sizeofrawdata/ESP32-esp_wifi_80211_tx-correction/blob/main/2.png"  alt="1">
 
 <p></p>
 <p></p>
-<p>или просто:</p>
+<p><b>или просто (no operation):</b></p>
 
   <img align="center" src="https://github.com/sizeofrawdata/ESP32-esp_wifi_80211_tx-correction/blob/main/3.png"  alt="1">
 
@@ -48,7 +53,6 @@ my_esp32_app.elf</b></span></p>
 
 <p class=MsoNormal>Результаты:</p>
 
-  <img align="center" src="https://github.com/sizeofrawdata/ESP32-esp_wifi_80211_tx-correction/blob/main/4.png"  alt="1">
 
 <p class=MsoNormal>до (вывод в монитор порта):</p>
 
