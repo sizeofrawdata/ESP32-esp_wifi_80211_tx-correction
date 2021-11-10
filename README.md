@@ -31,11 +31,13 @@ lang=EN-US>espressif</span>, решили ограничить отправку 
   
   <img align="center" src="https://github.com/sizeofrawdata/ESP32-esp_wifi_80211_tx-correction/blob/main/2.png"  alt="1">
 
-<p class=MsoNormal>или просто:</p>
+<p></p>
+<p></p>
+<p>или просто:</p>
 
   <img align="center" src="https://github.com/sizeofrawdata/ESP32-esp_wifi_80211_tx-correction/blob/main/3.png"  alt="1">
 
-<p class=MsoNormal>* на ваше усмотрение – имеются ввиду варианты логики</p>
+
 
 <p class=MsoNormal>Для получения образа прошивки (для последующей загрузки в
 память <span lang=EN-US>ESP</span>-32) используется утилита <span lang=EN-US>esptool</span>
@@ -77,6 +79,8 @@ lang=EN-US>ESP</span>-32, но я думаю, что этот вариант п�
 <p><a href="https://github.com/yath/ghidra-xtensa">ghidra-xtensa</a></p>  
 <p class=MsoNormal>&nbsp;</p>
 
+  
+<p class=MsoNormal>прим. *на ваше усмотрение – имеются ввиду варианты логики</p>  
 </div>
 
 </body>
