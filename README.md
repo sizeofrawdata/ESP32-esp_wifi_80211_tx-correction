@@ -25,18 +25,15 @@ lang=EN-US>espressif</span>, решили ограничить отправку 
 <p class=MsoNormal>Необходимо найти и исправить последовательность опкодов (*на
 ваше усмотрение):</p>
 
-<p class=MsoNormal align=center style='text-align:center'><img width=533
-height=231 id="Рисунок 1" src="Correct_esp_wifi_80211_tx.files/image001.jpg"></p>
-
+  <img align="center" src="https://github.com/sizeofrawdata/ESP32-esp_wifi_80211_tx-correction/blob/main/1.png"  alt="1">
+  
 <p class=MsoNormal>так:</p>
-
-<p class=MsoNormal align=center style='text-align:center'><img width=533
-height=227 id="Рисунок 2" src="Correct_esp_wifi_80211_tx.files/image002.jpg"></p>
+  
+  <img align="center" src="https://github.com/sizeofrawdata/ESP32-esp_wifi_80211_tx-correction/blob/main/2.png"  alt="1">
 
 <p class=MsoNormal>или просто:</p>
 
-<p class=MsoNormal align=center style='text-align:center'><img width=465
-height=220 id="Рисунок 3" src="Correct_esp_wifi_80211_tx.files/image003.png"></p>
+  <img align="center" src="https://github.com/sizeofrawdata/ESP32-esp_wifi_80211_tx-correction/blob/main/3.png"  alt="1">
 
 <p class=MsoNormal>* на ваше усмотрение – имеются ввиду варианты логики</p>
 
@@ -49,18 +46,15 @@ my_esp32_app.elf</span></p>
 
 <p class=MsoNormal>Результаты:</p>
 
-<p class=MsoNormal align=center style='text-align:center'><img width=623
-height=131 id="Рисунок 8" src="Correct_esp_wifi_80211_tx.files/image004.jpg"></p>
+  <img align="center" src="https://github.com/sizeofrawdata/ESP32-esp_wifi_80211_tx-correction/blob/main/4.png"  alt="1">
 
 <p class=MsoNormal>до (вывод в монитор порта):</p>
 
-<p class=MsoNormal align=center style='text-align:center'><img width=414
-height=79 id="Рисунок 6" src="Correct_esp_wifi_80211_tx.files/image005.png"></p>
+  <img align="center" src="https://github.com/sizeofrawdata/ESP32-esp_wifi_80211_tx-correction/blob/main/5.png"  alt="1">
 
 <p class=MsoNormal>после исправления:</p>
 
-<p class=MsoNormal align=center style='text-align:center'><img width=275
-height=57 id="Рисунок 7" src="Correct_esp_wifi_80211_tx.files/image006.png"></p>
+  <img align="center" src="https://github.com/sizeofrawdata/ESP32-esp_wifi_80211_tx-correction/blob/main/6.png"  alt="1">
 
 <p class=MsoNormal>Как уже упоминалось, основная проверка производится в
 функции <b>ieee80211_raw_frame_sanity_check</b>, которая находится в объектном
@@ -79,17 +73,8 @@ lang=EN-US>ESP</span>-32, но я думаю, что этот вариант п�
 
 <p class=MsoNormal>Использованные инструменты:</p>
 
-<p class=MsoNormal><span lang=EN-US>Ghidra</span></p>
-
-<p class=MsoNormal><span lang=EN-US>https</span>://<span lang=EN-US>ghidra</span>-<span
-lang=EN-US>sre</span>.<span lang=EN-US>org</span>/</p>
-
-<p class=MsoNormal><span lang=EN-US>ghidra</span>-<span lang=EN-US>xtensa</span></p>
-
-<p class=MsoNormal><span lang=EN-US>https</span>://<span lang=EN-US>github</span>.<span
-lang=EN-US>com</span>/<span lang=EN-US>yath</span>/<span lang=EN-US>ghidra</span>-<span
-lang=EN-US>xtensa</span></p>
-
+<p><a href="https://ghidra-sre.org/">Ghidra</a></p>   
+<p><a href="https://github.com/yath/ghidra-xtensa">ghidra-xtensa</a></p>  
 <p class=MsoNormal>&nbsp;</p>
 
 </div>
