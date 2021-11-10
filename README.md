@@ -57,7 +57,7 @@ my_esp32_app.elf</b></span></p>
 
   <img align="center" src="https://github.com/sizeofrawdata/ESP32-esp_wifi_80211_tx-correction/blob/main/6.png"  alt="1">
  <p><b>Microsoft Network Monitor 3.4:</b></p> 
- <img align="center" src="https://github.com/sizeofrawdata/ESP32-esp_wifi_80211_tx-correction/blob/main/7.png"  alt="1">  
+ <img align="center" src="https://github.com/sizeofrawdata/ESP32-esp_wifi_80211_tx-correction/blob/main/7.PNG"  alt="1">  
 
 <p class=MsoNormal>Как уже упоминалось, основная проверка производится в
 функции <b>ieee80211_raw_frame_sanity_check</b>, которая находится в объектном
