@@ -22,7 +22,7 @@ lang=EN-US>espressif</span>, решили ограничить отправку 
 готовый образ или исполняемый файл <span lang=EN-US>elf</span><span lang=EN-US>
 </span>вашего проекта.</p>
 
-<p class=MsoNormal>Необходимо найти и исправить (*<i>на ваше усмотрение</i>) последовательность опкодов:</p>
+<p class=MsoNormalПоследовательность опкодов (для замены):</p>
 
   <img align="center" src="https://github.com/sizeofrawdata/ESP32-esp_wifi_80211_tx-correction/blob/main/1.png"  alt="1">
   
@@ -37,9 +37,10 @@ lang=EN-US>espressif</span>, решили ограничить отправку 
   <img align="center" src="https://github.com/sizeofrawdata/ESP32-esp_wifi_80211_tx-correction/blob/main/3.png"  alt="1">
 
 
-
-<p class=MsoNormal>Для получения образа прошивки (для последующей загрузки в
-память <span lang=EN-US>ESP</span>-32) используется утилита <span lang=EN-US>esptool</span>
+<p><br></p>
+<p class=MsoNormal>После изменений в elf файле, его необходимо конвертировать в бинарный образ прошивки (для последующей загрузки в
+память <span lang=EN-US>ESP</span>-32).</p>
+<p>Для этого используется утилита <span lang=EN-US>esptool</span>
 с параметрами:</p>
 
 <p class=MsoNormal><span lang=EN-US><b>esptool.py --chip esp32 elf2image
@@ -61,7 +62,7 @@ my_esp32_app.elf</b></span></p>
   
  <img align="center" src="https://github.com/sizeofrawdata/ESP32-esp_wifi_80211_tx-correction/blob/main/7.PNG"  alt="1">  
 <p><br></p>
-<p class=MsoNormal>Как уже упоминалось, основная проверка производится в
+<p class=MsoNormal>Как уже отмечалось выше, основная проверка производится в
 функции <b>ieee80211_raw_frame_sanity_check</b>, которая находится в объектном
 файле <b>ieee80211_output.o</b>  <span style='font-family:"Arial",sans-serif;
 color:#202124;background:white'>библиотеки</span> <b>libnet80211.a, </b>её
